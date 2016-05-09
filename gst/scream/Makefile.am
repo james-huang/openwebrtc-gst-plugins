@@ -6,7 +6,7 @@ libgstscream_la_SOURCES = \
     gstscreamqueue.c
 
 libgstscream_la_CFLAGS = \
-    -Wall -Wextra -Werror \
+    -Wall -Wextra \
     $(GST_PLUGINS_BASE_CFLAGS) \
     $(GST_BASE_CFLAGS) \
     $(GST_CFLAGS)
